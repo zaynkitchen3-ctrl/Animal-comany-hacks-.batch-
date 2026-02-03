@@ -7,7 +7,7 @@ echo ======================================
 echo          Animal Company Hacks
 echo ======================================
 :password
-set /p PASSWORD=Enter Password: 
+set /p PASSWORD=Enter Password:123
 if NOT %PASSWORD%=="Remove "" and put the password of your choice" goto incorrect
 
 echo.
@@ -84,3 +84,4 @@ timeout /t 1 >nul
 echo.
 echo Process complete, mods given to username: %username%
 pause
+
